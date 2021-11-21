@@ -44,12 +44,12 @@ def MADELEXP(x,c,ite):
 
 
 plt.figure(1)
-b1 = JULIA(x1,c1,bins)
+b1 = MADEL(x1,c1,bins)
 plt.imshow(b1,cmap="jet")
 
 
 plt.figure(2)
-b2 = JULIAEXP(x2,c2,bins)
+b2 = MADELEXP(x2,c2,bins)
 plt.imshow(b2,cmap="jet")
 
     

@@ -9,7 +9,7 @@ x1 = np.linspace(-2,2,bins)
 c2= 0.21
 x2 = np.linspace(-2,2,bins)
 
-def JULIA(x,c,ite):  
+def MADEL(x,c,ite):  
     n = (len(x))
     out = np.zeros((n,n))
     for i in range(n):
@@ -26,7 +26,7 @@ def JULIA(x,c,ite):
     return (out)
 
 
-def JULIAEXP(x,c,ite):  
+def MADELEXP(x,c,ite):  
     n = (len(x))
     out = np.zeros((n,n))
     for i in range(n):

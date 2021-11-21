@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 bins=100
-c1 = 0
+c1 = 0.39+0.6*1j
 x1 = np.linspace(-2,2,bins)
 
 
@@ -43,14 +43,14 @@ def JULIAEXP(x,c,ite):
     return (out)
 
 
-
+plt.figure(1)
 b1 = JULIA(x1,c1,bins)
 plt.imshow(b1,cmap="jet")
 
+
+plt.figure(2)
 b2 = JULIAEXP(x2,c2,bins)
 plt.imshow(b2,cmap="jet")
-
-
 
     
 
